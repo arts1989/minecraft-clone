@@ -3,7 +3,7 @@ using UnityEngine;
 
 public static class TerrainGenerator
 {
-    public static BlockType[,,] GenerateTerrain(int xOffset, int zOffset)
+    public static BlockType[,,] GenerateTerrain( float xOffset, float zOffset)
     {
         var result = new BlockType[ChunkRenderer.ChunkWidth, ChunkRenderer.ChunkHeight, ChunkRenderer.ChunkWidth];
 
@@ -11,7 +11,7 @@ public static class TerrainGenerator
         {
             for (int z = 0; z < ChunkRenderer.ChunkWidth; z++)
             {
-                float height = Mathf.PerlinNoise((x+ xOffset) * .2f, (z+zOffset) * .2f) * 5 + 10;
+                float height = Mathf.PerlinNoise((x/4f + xOffset) * .2f, (z/4f + zOffset) * .2f) * 25 + 10;
                 
                 for (int y = 0; y < height; y++)
                 {
