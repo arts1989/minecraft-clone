@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ParrentWorld: {fileID: 0}
+  Blocks: {fileID: 11400000, guid: 5b39eb25bb9194046a7db309cbea29ed, type: 2}
 --- !u!64 &841756739315407846
 MeshCollider:
   m_ObjectHideFlags: 0

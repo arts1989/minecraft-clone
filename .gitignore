@@ -1,23 +1,50 @@
-
-#Ignore thumbnails created by Windows
-Thumbs.db
-#Ignore files built by Visual Studio
-Library/*
-/.vsconfig
-.vs/*
-Temp/*
-ProjectSettings/*
-/Assembly-CSharp.csproj
-Logs/*
-obj/*
-/Minecraft Clone Emerald.sln
-/Packages/manifest.json
-/Packages/packages-lock.json
-/UserSettings/EditorUserSettings.asset
-/UserSettings/Layouts/default-2021.dwlt
-/UserSettings/Search.settings
-/.idea/.idea.Minecraft Clone Emerald/.idea/.gitignore
-/.idea/.idea.Minecraft Clone Emerald/.idea/encodings.xml
-/.idea/.idea.Minecraft Clone Emerald/.idea/indexLayout.xml
-/.idea/.idea.Minecraft Clone Emerald/.idea/vcs.xml
-/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+ProjectSettings/
+UserSettings/
+.vsconfig
+.idea/
+Logs/
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+/[Bb]uilds/
+/[Ll]ibrary/
+sysinfo.txt
+*.stackdump
+/Assets/AssetStoreTools*
+*.apk
+*.unitypackage
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+/*.userprefs
+/*.csproj
+/*.pidb
+*.pidb.meta
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+.consulo/
+/*.tmp
+/*.svd
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+Corridor/Library/ShaderCache/
+Corridor/Library/metadata/
